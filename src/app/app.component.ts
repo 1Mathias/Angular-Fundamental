@@ -7,4 +7,13 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'angular-fundamentals';
+  
+
+  getMin(a: number,b: number){
+  if(a>b){
+    return b;
+  }
+  return a;
+  }
 }
+
