@@ -1,1 +1,6 @@
-<app-child [childMessage]="currentMessage"></app-child>
+<!-- Input Decorator -->
+<!-- <app-child [childMessage]="currentMessage"></app-child>  -->
+
+<!-- Output Decorator -->
+
+<app-child (parentMessage)="receiveMessage($event)"></app-child>
